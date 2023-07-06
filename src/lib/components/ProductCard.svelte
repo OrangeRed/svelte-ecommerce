@@ -3,7 +3,7 @@
 	import { Badge } from './ui/badge';
 	import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card';
 
-	import type { Product } from '$routes/+page.server';
+	import type { Product } from '$routes/+layout.server';
 
 	import { cart, addToCart, removeFromCart } from '$store/cart';
 	export let product: Product;
