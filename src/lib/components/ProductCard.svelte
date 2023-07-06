@@ -5,7 +5,7 @@
 
 	import type { Product } from '$routes/+page.server';
 
-	import { cart, addToCart, removeFromCart } from '$routes/_store/cart';
+	import { cart, addToCart, removeFromCart } from '$store/cart';
 	export let product: Product;
 </script>
 
