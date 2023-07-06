@@ -75,12 +75,11 @@
 
 @layer base {
 	* {
-		@apply m-1 border-border;
-		/* @apply m-1 border-2 border-border; */
+		@apply border-border;
 	}
 
 	body {
-		@apply bg-background text-foreground;
+		@apply mx-auto flex h-full flex-col items-center justify-center bg-background text-foreground;
 		font-feature-settings: 'rlig' 1, 'calt' 1;
 	}
 }
